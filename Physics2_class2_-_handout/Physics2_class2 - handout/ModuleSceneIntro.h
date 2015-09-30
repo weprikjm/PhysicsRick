@@ -7,6 +7,9 @@ class PhysBody;
 
 class ModuleSceneIntro : public Module
 {
+private:
+	float* rickPoints;
+
 public:
 	ModuleSceneIntro(Application* app, bool start_enabled = true);
 	~ModuleSceneIntro();
@@ -20,5 +23,5 @@ public:
 	SDL_Texture* circle;
 	SDL_Texture* box;
 	SDL_Texture* rick;
-	float* rickPoints; 
+	 
 };

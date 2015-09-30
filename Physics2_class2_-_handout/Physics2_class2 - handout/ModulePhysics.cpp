@@ -83,7 +83,7 @@ update_status ModulePhysics::PostUpdate()
 	{
 		// TODO 3: Create a chain shape using those vertices
 		// remember to convert them from pixels to meters!
-		CreateChain();
+		//CreateChain();
 	
 	}
 
